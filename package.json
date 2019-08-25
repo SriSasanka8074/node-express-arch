@@ -1,0 +1,26 @@
+{
+  "name": "node-express-arch",
+  "version": "1.0.0",
+  "description": "nodejs expressjs architecture",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "live-server": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SriSasanka",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.9",
+    "multer": "^1.4.2",
+    "nodemon": "^1.19.1",
+    "validations": "^0.1.3"
+  }
+}
